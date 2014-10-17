@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5AF8EB1D19F14A6000C71D9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF8EB1C19F14A6000C71D9F /* AppDelegate.swift */; };
+		5AF8EB1F19F14A6000C71D9F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF8EB1E19F14A6000C71D9F /* ViewController.swift */; };
+		5AF8EB2219F14A6000C71D9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AF8EB2019F14A6000C71D9F /* Main.storyboard */; };
+		5AF8EB2419F14A6000C71D9F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AF8EB2319F14A6000C71D9F /* Images.xcassets */; };
+		5AF8EB2719F14A6000C71D9F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5AF8EB2519F14A6000C71D9F /* LaunchScreen.xib */; };
+		5AF8EB3319F14A6000C71D9F /* besike_ios_FortunaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF8EB3219F14A6000C71D9F /* besike_ios_FortunaTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5AF8EB2D19F14A6000C71D9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AF8EB0F19F14A6000C71D9F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AF8EB1619F14A6000C71D9F;
+			remoteInfo = "besike-ios-Fortuna";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5AF8EB1719F14A6000C71D9F /* besike-ios-Fortuna.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "besike-ios-Fortuna.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AF8EB1B19F14A6000C71D9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AF8EB1C19F14A6000C71D9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5AF8EB1E19F14A6000C71D9F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5AF8EB2119F14A6000C71D9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5AF8EB2319F14A6000C71D9F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5AF8EB2619F14A6000C71D9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		5AF8EB2C19F14A6000C71D9F /* besike-ios-FortunaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "besike-ios-FortunaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AF8EB3119F14A6000C71D9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AF8EB3219F14A6000C71D9F /* besike_ios_FortunaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = besike_ios_FortunaTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5AF8EB1419F14A6000C71D9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AF8EB2919F14A6000C71D9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5AF8EB0E19F14A6000C71D9F = {
+			isa = PBXGroup;
+			children = (
+				5AF8EB1919F14A6000C71D9F /* besike-ios-Fortuna */,
+				5AF8EB2F19F14A6000C71D9F /* besike-ios-FortunaTests */,
+				5AF8EB1819F14A6000C71D9F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5AF8EB1819F14A6000C71D9F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5AF8EB1719F14A6000C71D9F /* besike-ios-Fortuna.app */,
+				5AF8EB2C19F14A6000C71D9F /* besike-ios-FortunaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5AF8EB1919F14A6000C71D9F /* besike-ios-Fortuna */ = {
+			isa = PBXGroup;
+			children = (
+				5AF8EB1C19F14A6000C71D9F /* AppDelegate.swift */,
+				5AF8EB1E19F14A6000C71D9F /* ViewController.swift */,
+				5AF8EB2019F14A6000C71D9F /* Main.storyboard */,
+				5AF8EB2319F14A6000C71D9F /* Images.xcassets */,
+				5AF8EB2519F14A6000C71D9F /* LaunchScreen.xib */,
+				5AF8EB1A19F14A6000C71D9F /* Supporting Files */,
+			);
+			path = "besike-ios-Fortuna";
+			sourceTree = "<group>";
+		};
+		5AF8EB1A19F14A6000C71D9F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5AF8EB1B19F14A6000C71D9F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5AF8EB2F19F14A6000C71D9F /* besike-ios-FortunaTests */ = {
+			isa = PBXGroup;
+			children = (
+				5AF8EB3219F14A6000C71D9F /* besike_ios_FortunaTests.swift */,
+				5AF8EB3019F14A6000C71D9F /* Supporting Files */,
+			);
+			path = "besike-ios-FortunaTests";
+			sourceTree = "<group>";
+		};
+		5AF8EB3019F14A6000C71D9F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5AF8EB3119F14A6000C71D9F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5AF8EB1619F14A6000C71D9F /* besike-ios-Fortuna */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AF8EB3619F14A6000C71D9F /* Build configuration list for PBXNativeTarget "besike-ios-Fortuna" */;
+			buildPhases = (
+				5AF8EB1319F14A6000C71D9F /* Sources */,
+				5AF8EB1419F14A6000C71D9F /* Frameworks */,
+				5AF8EB1519F14A6000C71D9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "besike-ios-Fortuna";
+			productName = "besike-ios-Fortuna";
+			productReference = 5AF8EB1719F14A6000C71D9F /* besike-ios-Fortuna.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5AF8EB2B19F14A6000C71D9F /* besike-ios-FortunaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AF8EB3919F14A6000C71D9F /* Build configuration list for PBXNativeTarget "besike-ios-FortunaTests" */;
+			buildPhases = (
+				5AF8EB2819F14A6000C71D9F /* Sources */,
+				5AF8EB2919F14A6000C71D9F /* Frameworks */,
+				5AF8EB2A19F14A6000C71D9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5AF8EB2E19F14A6000C71D9F /* PBXTargetDependency */,
+			);
+			name = "besike-ios-FortunaTests";
+			productName = "besike-ios-FortunaTests";
+			productReference = 5AF8EB2C19F14A6000C71D9F /* besike-ios-FortunaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5AF8EB0F19F14A6000C71D9F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = stackvirgil;
+				TargetAttributes = {
+					5AF8EB1619F14A6000C71D9F = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					5AF8EB2B19F14A6000C71D9F = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 5AF8EB1619F14A6000C71D9F;
+					};
+				};
+			};
+			buildConfigurationList = 5AF8EB1219F14A6000C71D9F /* Build configuration list for PBXProject "besike-ios-Fortuna" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5AF8EB0E19F14A6000C71D9F;
+			productRefGroup = 5AF8EB1819F14A6000C71D9F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5AF8EB1619F14A6000C71D9F /* besike-ios-Fortuna */,
+				5AF8EB2B19F14A6000C71D9F /* besike-ios-FortunaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5AF8EB1519F14A6000C71D9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AF8EB2219F14A6000C71D9F /* Main.storyboard in Resources */,
+				5AF8EB2719F14A6000C71D9F /* LaunchScreen.xib in Resources */,
+				5AF8EB2419F14A6000C71D9F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AF8EB2A19F14A6000C71D9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5AF8EB1319F14A6000C71D9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AF8EB1F19F14A6000C71D9F /* ViewController.swift in Sources */,
+				5AF8EB1D19F14A6000C71D9F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AF8EB2819F14A6000C71D9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AF8EB3319F14A6000C71D9F /* besike_ios_FortunaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5AF8EB2E19F14A6000C71D9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5AF8EB1619F14A6000C71D9F /* besike-ios-Fortuna */;
+			targetProxy = 5AF8EB2D19F14A6000C71D9F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5AF8EB2019F14A6000C71D9F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AF8EB2119F14A6000C71D9F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5AF8EB2519F14A6000C71D9F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AF8EB2619F14A6000C71D9F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5AF8EB3419F14A6000C71D9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5AF8EB3519F14A6000C71D9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5AF8EB3719F14A6000C71D9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "besike-ios-Fortuna/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5AF8EB3819F14A6000C71D9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "besike-ios-Fortuna/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5AF8EB3A19F14A6000C71D9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "besike-ios-FortunaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/besike-ios-Fortuna.app/besike-ios-Fortuna";
+			};
+			name = Debug;
+		};
+		5AF8EB3B19F14A6000C71D9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "besike-ios-FortunaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/besike-ios-Fortuna.app/besike-ios-Fortuna";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5AF8EB1219F14A6000C71D9F /* Build configuration list for PBXProject "besike-ios-Fortuna" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AF8EB3419F14A6000C71D9F /* Debug */,
+				5AF8EB3519F14A6000C71D9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AF8EB3619F14A6000C71D9F /* Build configuration list for PBXNativeTarget "besike-ios-Fortuna" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AF8EB3719F14A6000C71D9F /* Debug */,
+				5AF8EB3819F14A6000C71D9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5AF8EB3919F14A6000C71D9F /* Build configuration list for PBXNativeTarget "besike-ios-FortunaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AF8EB3A19F14A6000C71D9F /* Debug */,
+				5AF8EB3B19F14A6000C71D9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5AF8EB0F19F14A6000C71D9F /* Project object */;
+}
